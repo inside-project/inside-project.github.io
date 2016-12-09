@@ -67,8 +67,20 @@ p.paragraph {
 }
 .logo {
   font-size: 30px;
-  line-height: 30px;
+  line-height: 20px;
   font-weight: 900;
+}
+.logo img {
+	margin-right: 5px;
+	height: 35px;
+	width: auto;
+}
+.logo a,
+.logo a:link,
+.logo a:active,
+.logo a:visited {
+	color: #000;
+	text-decoration: none;
 }
 @media (max-width: 420px) {
   .logo {
@@ -83,7 +95,7 @@ p.paragraph {
   color: inherit;
 }
 .nav-link:not(:first-of-type) {
-  margin-left: 20px;
+  margin-left: 30px;
 }
 .text-center {
   text-align: center;
@@ -176,9 +188,7 @@ p.paragraph {
 .financing {
 	border-bottom: 1px solid rgba(0,0,0,.1);
 	padding: 40px 0 40px 0;
-}
-.financing .logos {
-	justify-content: center;
+	text-align: center;
 }
 .financing img {
 	padding: 50px;
@@ -186,6 +196,13 @@ p.paragraph {
 .publications {
 	border-bottom: 1px solid rgba(0,0,0,.1);
 	padding: 40px 0 40px 0;
+}
+.publications a:link,
+.publications a:active,
+.publications a:visited,
+.publications a:hover {
+	color: #000;
+	text-decoration: none;
 }
 .publications li {
 	list-style-type: none;
@@ -247,11 +264,13 @@ p.paragraph {
 	.ctas-button {
 		margin: 10px 0 0 0;
 	}
-}.socialproof {
-	padding: 90px 0;
+}
+.socialproof {
+	border-bottom: 1px solid rgba(0,0,0,.1);
+	padding: 40px 0 40px 0;
 }
 .socialproof img {
-	max-height: 45px;
+	max-height: 300px;
 	max-width: 100%;
 	margin-top: 45px;
 }
@@ -354,6 +373,12 @@ p.paragraph {
 }
 .feature5 .steps:not(:last-of-type) {
 	margin-bottom: 20px;
+}
+.feature5 a:link,
+.feature5 a:active,
+.feature5 a:visited,
+.feature5 a:hover {
+	color: rgba(0,0,0,.5);
 }
 @media (max-width: 900px) {
 	.feature5 .header-images {

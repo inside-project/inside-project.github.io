@@ -63,7 +63,6 @@ body {
   margin-top: 10px;
 }
 p.paragraph {
-  color: rgba(0,0,0,.5);
 }
 .logo {
   font-size: 30px;
@@ -331,6 +330,16 @@ p.paragraph {
 .notice {
 	margin-top: 20px;
 }
+.footer a:link,
+.footer a:active,
+.footer a:visited,
+.footer a:hover {
+	text-decoration: none;
+	color: #040404;
+}
+.footer a:hover {
+	text-decoration: underline;
+}
 .footer .nav-link {
 	display: inline-block;
 	margin: 0 10px;
@@ -391,7 +400,7 @@ p.paragraph {
 .feature5 a:active,
 .feature5 a:visited,
 .feature5 a:hover {
-	color: rgba(0,0,0,.5);
+	color: #040404;
 }
 @media (max-width: 900px) {
 	.feature5 .header-images {

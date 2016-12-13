@@ -95,7 +95,7 @@ p.paragraph {
   color: inherit;
 }
 .nav-link:not(:first-of-type) {
-  margin-left: 30px;
+  margin-left: 4em;
 }
 .text-center {
   text-align: center;
@@ -186,12 +186,10 @@ p.paragraph {
 	padding-top: 50px;
 }
 .financing {
-	border-bottom: 1px solid rgba(0,0,0,.1);
-	padding: 40px 0 40px 0;
 	text-align: center;
 }
-.financing img {
-	padding: 50px;
+.financing a {
+	padding-right: 50px;
 }
 .publications {
 	border-bottom: 1px solid rgba(0,0,0,.1);
@@ -311,12 +309,27 @@ p.paragraph {
 	.ctas-button-2 {
 		margin: 10px 0 0 0;
 	}
-}.footer {
-	padding: 45px 0;
+}
+.footer {
+	padding: 20px 0;
+	font-size: 0.8em;
+}
+.footer h3 {
+	margin-bottom: 15px;
+	font-size: 1.3em;
+	font-weight: bolder;
+}
+.footer .menu li {
+	list-style: none;
+	margin: 0 0 10px -40px;
 }
 .subtle {
 	font-size: 0.9em;
-	color: #707070;
+	color: #404040;
+	font-style: italic;
+}
+.notice {
+	margin-top: 20px;
 }
 .footer .nav-link {
 	display: inline-block;

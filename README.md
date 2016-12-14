@@ -1,7 +1,7 @@
-Websote do projeto INSIDe
+Website do projeto INSIDe
 ================================
 
-![INSIDe: Ferramenta para Reconhecimento de Imagens para Auxiliar Deficientes Visuais Durante Navegação em Ambientes Internos](https://inside-project.github.io/img/mockups.jpg)
+![INSIDe: Ferramenta para Reconhecimento de Imagens para Auxiliar Deficientes Visuais Durante Navegação em Ambientes Internos](https://inside-project.github.io/img/mockups.jpg?small)
 
 Esse repositório contém o código-fonte do site do projeto _"Utilização de Visão Computacional e Detecção de Características para Auxiliar na Navegação de Pessoas com Deficiência em Ambientes Internos"_.
 
